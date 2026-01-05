@@ -45,6 +45,7 @@ sudo dnf install nasm
 ### Compile and Link
 
 ```bash
+
 # Assemble the source code
 nasm -f elf64 monitor.asm -o monitor.o
 
